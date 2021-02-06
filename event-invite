@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Event invite</title>
+        <style>
+        body {
+            font-family: system-ui;
+        }
+            h1 {
+                color: rgb(79, 87, 92);
+                position: absolute;
+                z-index: 2;
+                font-size: 25px;
+                width: 50%;
+                margin-left: 288px;
+                margin-top: 253px;
+            }
+            #background {
+                z-index: 1;
+                position: relative;
+                margin-left:-9px;
+                margin-top: -10px;
+            }
+            #content {
+                background-color: rgb(217, 202, 167);
+                color: rgb(79, 87, 92);
+                margin-top: 5px;
+                width: 560px;
+                margin-left: -8px;
+                padding: 20px;
+                font-size: 17px;
+                font-style: italic;
+                font-weight: bold;
+            }
+            li {
+                margin-left: 15px;
+            }
+            .titles {
+                text-align: center;
+            }
+            #details {
+                background-color: rgb(217, 202, 167);
+                color: rgb(79, 87, 92);
+                margin-top: -5px;
+                margin-left: -8px;
+                width: 560px;
+                padding: 20px;
+            }
+            #festival-program {
+                background-color: rgb(217, 202, 167);
+                color: rgb(79, 87, 92);
+                margin-top: 10px;
+                margin-left: -8px;
+                width: 560px;
+                padding: 20px;
+                line-height: 25px;
+            }
+            #events {
+                background-color: rgb(217, 202, 167);
+                color: rgb(79, 87, 92);
+                margin-top: 10px;
+                margin-left: -8px;
+                width: 560px;
+                padding: 20px;
+                line-height: 25px;
+            }
+            #contacts {
+                background-color: rgb(217, 202, 167);
+                color: rgb(79, 87, 92);
+                margin-top: 10px;
+                margin-left: -8px;
+                width: 560px;
+                padding: 20px;
+                line-height: 25px;
+            }
+            #sponsors {
+                background-color: rgb(217, 202, 167);
+                color: rgb(79, 87, 92);
+                margin-top: 10px;
+                margin-left: -8px;
+                width: 560px;
+                padding: 20px;
+                line-height: 25px;
+            }
+            .sponsors-logo {
+                padding: 20px;
+            }
+            #map {
+                position: relative;   
+            }
+        </style>
+    </head>
+    <body>
+        
+        <h1>You're invited to Burning Man Festival!!</h1>
+        <img id= "background" src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Airpusher_Art_Car_at_Burning_Man.jpg" width="600">
+        
+        <ul id="content">
+            <li><a href="#details">About the Festival</a></li>
+            <li><a href="#festival-program">Festival Program</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+        </ul>
+        
+        
+        
+        <div id="details"><h2 class="titles">About the Festival</h2>
+        <p>Burning Man is an <strong><em>iconic counterculture event</em></strong> that draws visitors from around the globe.<br><br> 
+        It takes place in the Black Rock Desert of northern Nevada each year where a temporary city is built to host the festival. Burning Man started in 1986, with burning a wooden-figure of a man on a beach in San Francisco – there were 20 people present that night and by the next year, it had increased to 80!<br><br>
+        This imaginative happening is a celebration of all things fantastical. Think improbable structures, fascinating people and remarkable art installations. Artistic self-expression is the name of the game. Many guests dress up in exquisite costumes according to the yearly theme.<br><br>
+
+Another interesting aspect of Burning Man is the <strong><em>gifting culture</em></strong>. Everyone brings something to give to their fellow festival-goers free of charge. You might be handed a lovely piece of French toast. Or be offered a cooling mist bath! It’s not always tangible. Some might write you a poem.<br><br>
+    <strong>Event time: 30 August - 7 September, 2020</strong><br><br>
+    <strong>Location: Black Rock Desert, Nevada</strong><br><br>
+    <a href="https://www.google.com/maps/d/u/0/viewer?hl=en&gl=us&ie=UTF8&oe=UTF8&msa=0&mid=1o2fIVX-r_7SDnk2ofYm2Ft-ZNOU&ll=40.78262100000004%2C-119.20543700000002&z=17"><img id="map" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Relief_map_of_U.S.%2C_Nevada.png/280px-Relief_map_of_U.S.%2C_Nevada.png" width="200"></a>
+</p></div>
+        
+        
+        <div id="festival-program"><h2 class="titles">Festival Program</h2><p>
+           <strong class="program-days"><em>1st day:</em></strong>
+           Meeting of all participants<br>
+           <strong class="program-days"><em>2nd day:</em></strong>
+           Starting the construction<br>
+           <strong class="program-days"><em>3rd day:</em></strong>
+           Party<br>
+           <strong class="program-days"><em>4th day:</em></strong>
+           Ending the construction<br>
+           <strong class="program-days"><em>5th day:</em></strong>
+           Burning the masterpiece<br></p>
+        </div>
+        
+        
+        <div id="events"><h2 class="titles">Events</h2>
+        <p><strong>Burning Man, 2017</strong><br>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Burning_Man_2015_%2821874978173%29.jpg/1024px-Burning_Man_2015_%2821874978173%29.jpg" width="550"><br><br>
+        <strong>Burning Man, 2018</strong><br>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Burning_Man_2016_Daytime_175_%2830257394411%29.jpg/1200px-Burning_Man_2016_Daytime_175_%2830257394411%29.jpg" width="550"><br><br>
+        <strong>Burning Man, 2019</strong><br>
+        <img id="main-pic" src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Burning_Man_Art_2015_%2821067016923%29.jpg" width="550">
+        </p></div>
+        
+        
+        <div id="contacts"><h2 class="titles">Our contacts</h2><p>
+        <strong>Phone number:</strong> 123456789<br>
+        <strong>Email address:</strong> burning@man.com<br>
+        <strong>Instagram account:</strong> @burningman<br>
+        <a href="https://burningman.org/">More information</a>
+        </p>
+        </div>
+        
+        <div id="sponsors"><h2 class="titles"></h2><p>
+        <img class="sponsors-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Coca-Cola_logo.svg/220px-Coca-Cola_logo.svg.png" width="100">
+        <img class="sponsors-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Ford_logo_flat.svg/200px-Ford_logo_flat.svg.png" width="100">
+        <img class="sponsors-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/McDonald%27s_Golden_Arches.svg/200px-McDonald%27s_Golden_Arches.svg.png" width="50">
+        <img class="sponsors-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Samsung_wordmark.svg/200px-Samsung_wordmark.svg.png" width="100">
+        </p>
+        </div>
+    </body>
+</html>
