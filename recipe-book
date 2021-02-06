@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project: Recipe book</title>
+        <meta charset="utf-8">
+        <style>
+        h1 {
+            background-color: rgb(107, 23, 68);
+            color: white;
+        }
+        #contents {
+            color: black;
+        }
+        h2 {
+            color: rgb(107, 23, 68);
+        }
+        th {
+            background-color: rgb(107, 23, 68);
+            color: white;
+        }
+        .steps {
+            color: rgb(107, 23, 68);
+        }
+        </style>
+    </head>
+    <body>
+       
+        <h1>Gulnaz's Recipe Book</h1>
+        
+        <h2 id="contents">Contents:</h2>
+        
+        <ol>
+            <li><a href="#baked-shrimp">Lighter Baked Shrimp Scampi</a></li>
+            <li><a href="#black-magic-cake">Black Magic Cake</a></li>
+            <li><a href="#italian-spaghetti">Italian Spaghetti</a></li>
+        </ol>
+        
+        <h2 id="baked-shrimp">Lighter Baked Shrimp Scampi</h2>
+        
+        <ul>
+            <li>Time: 40 min</li>
+            <li>Serves: 4</li>
+        </ul>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Shrimp</td>
+                    <td>16 pieces</td>
+                </tr>
+                <tr>
+                    <td>Olive oil</td>
+                    <td>1 teaspoon</td>
+                </tr>
+                <tr>
+                    <td>Lemon</td>
+                    <td>4 wedges</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/01/Awadhi_prawns.jpg" alt="Lighter Bakes Shrimp Scampi" width="429">
+        
+        <p><strong class="steps">Step 1:</strong><em> Preheat the oven to 350 degrees F (175 degrees C). Place shrimp in a shallow baking dish.</em><br><br>
+        <strong class="steps">Step 2:</strong><em>Melt butter in a small saucepan over medium heat. Add garlic, shallot, and olive oil and cook until fragrant, about 1 minute. Stir in chicken stock, lemon juice, red pepper flakes, paprika, salt, and pepper. Pour this mixture over shrimp and sprinkle with crushed croutons.</em><br><br>
+        <strong class="steps">Step 3:</strong><em>Bake in the preheated oven until shrimp are bright pink on the outside and the meat is opaque, 9 to 11 minutes; do not overcook.</em><br><br>
+        <strong class="steps">Step 4:</strong><em>While shrimp is cooking, place riced cauliflower in a large nonstick skillet. Cook over medium heat, stirring occasionally, until hot, about 5 minutes.</em><br><br>
+        <strong class="steps">Step 5:</strong><em>Serve shrimp over riced cauliflower. Garnish with chopped parsley and lemon wedges.</em><br><br>
+</p>
+
+
+     <!-- 2nd Recipe-->
+     
+     <h2 id="black-magic-cake">Black Magic Cake</h2>
+        
+        <ul>
+            <li>Time: 35 min</li>
+            <li>Serves: 24</li>
+        </ul>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Sugar</td>
+                    <td>2 cups</td>
+                </tr>
+                <tr>
+                    <td>Eggs</td>
+                    <td>2 pieces</td>
+                </tr>
+                <tr>
+                    <td>Vanilla extract</td>
+                    <td>1 teaspoon</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/14/Sachertorte_DSC03027_retouched.jpg" alt="Black Magic Cake" width="429">
+        
+        <p><strong class="steps">Step 1:</strong><em> Preheat oven to 350 degrees F (175 degrees C). Grease and flour two 9 inch round cake pans or one 9x13 inch pan.</em><br><br>
+        <strong class="steps">Step 2:</strong><em>In large bowl combine flour, sugar, cocoa, baking soda, baking powder and salt. Make a well in the center.</em><br><br>
+        <strong class="steps">Step 3:</strong><em>Add eggs, coffee, buttermilk, oil and vanilla. Beat for 2 minutes on medium speed. Batter will be thin. Pour into prepared pans.</em><br><br>
+        <strong class="steps">Step 4:</strong><em>Bake at 350 degrees F (175 degrees C) for 30 to 40 minutes, or until toothpick inserted into center of cake comes out clean. Cool for 10 minutes, then remove from pans and finish cooling on a wire rack. Fill and frost as desired.</em><br><br></p>
+        
+        
+        <!-- 3rd Recipe-->
+     
+     <h2 id="italian-spaghetti">Italian Spaghetti</h2>
+        
+        <ul>
+            <li>Time: 40 min</li>
+            <li>Serves: 6</li>
+        </ul>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Italian sausage</td>
+                    <td>1/2 pound</td>
+                </tr>
+                <tr>
+                    <td>Bay leaves</td>
+                    <td>2 pieces</td>
+                </tr>
+                <tr>
+                    <td>Dried basil</td>
+                    <td>1 teaspoon</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Espaguetis_carbonara.jpg" alt="Italian Spaghetti" width="429">
+        
+        <p><strong class="steps">Step 1:</strong><em>In a large skillet, brown sausage over medium heat; drain and set aside.</em><br><br>
+        <strong class="steps">Step 2:</strong><em>Simmer over medium-low heat for at least one hour; it is best if simmered all day.</em><br><br>
+        <strong class="steps">Step 3:</strong><em>Bring a large pot of lightly salted water to a boil. Add pasta and cook for 8 to 10 minutes or until al dente; drain.</em><br><br>
+        <strong class="steps">Step 4:</strong><em>Mix sauce with hot pasta; serve.</em><br><br></p>
+        
+    <p><em>Source: <a target="_blank" href="https://www.allrecipes.com/">Some recipes websites</a></em></p>
+    
+    </body>
+</html>
