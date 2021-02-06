@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Travel webpage</title>
+        <style>
+            h3 {
+        background-color: rgb(169, 233, 252);
+        }
+            .tour-names {
+                background-color: rgb(208, 250, 187);
+            }
+            .price {
+                color: rgb(245, 114, 66);
+            }
+        </style>
+        
+    </head>
+    <body>
+    
+        <h1>Travel to Greece</h1>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Santorini_07_02_09_0808.jpg/1200px-Santorini_07_02_09_0808.jpg" alt="Oia, Greece" width="466">
+        
+        
+        <h3>Location</h3>
+        <p>Greece is located in <em>Southern Europe</em>, bordering the Ionian Sea and the Mediterranean Sea, between Albania and Turkey. It is a <strong><em>peninsular</em></strong> country, with an archipelago of about 3,000 islands.</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/01/Attiki_in_Greece.svg" alt="Greece's map" width="297">
+        
+        
+        
+        
+        <h3>Famous landmarks: </h3>
+        <ul>
+        
+            <li><strong>Acropolis Museum</strong></li>
+            <p><em>The Acropolis Museum is undoubtedly one of the most famous landmarks in Athens, Greece. It is an archaeological museum that opened in 2009, and it is located in the centre of the city.</em></p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/O_Partenon_de_Atenas.jpg/800px-O_Partenon_de_Atenas.jpg" alt="Acropolis Museum in Athens" width="358">
+            
+            
+            <li><strong>Academy of Athens</strong></li>
+            <p><em>The Academy of Athens is another thrilling Greek landmark in Athens to keep an eye out for. Even though it was built in a modern form, it still exhibits the achievements of ancient Greece beautifully. It is a national academy and the highest research institution in Greece presently.</em></p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/1/12/Attica_06-13_Athens_28_Academy_of_Athens.jpg" alt="Acadmey of Athens" width="358">
+            
+            
+            <li><strong>Temple of Olympian Zeus</strong></li>
+            <p><em>The Temple of Olympian Zeus, commonly known as the Olympieion, was once the largest in the world. It is located in the centre of Athens, built to honour the Greek god Zeus who is seen as the head of the Olympian gods.</em></p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b0/Attica_06-13_Athens_25_Olympian_Zeus_Temple.jpg" alt="Temple of Olympian Zeus" width="358">
+            
+            
+            <li><strong>Spinalonga Island</strong></li>
+            <p><em>Spinalonga Island is one of Greece's most intriguing historical landmarks and a must-visit when travelling to Crete.<br><br>
+            Its history goes back to the 16th century when the island was fortified during the Venetian rule in Crete. Later on, it was also a refuge for the Christians and Ottomans, but today, it's mostly known as one of the last active leper colonies in Europe.</em></p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/98/Spinalonga_fort_on_the_island_of_Spinalonga.jpg" alt="Spinalonga Island" width="358">
+            
+            
+            <li><strong>Sanctuary of Delphi</strong></li>
+            <p><em>In the centre of mainland Greece sits the ancient sanctuary of Delphi, once believed to be the world's navel. First settled over 3000 years ago, Delphi was home to the god Apollo and his prophesying priestess, the Pythia.</em></p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/The_sanctuary_of_Apollo_in_Delphi_-_panoramio_%287%29.jpg/1280px-The_sanctuary_of_Apollo_in_Delphi_-_panoramio_%287%29.jpg" alt="Sanctuary of Delphi" width="358">
+        </ul>
+        
+        
+        
+        <h3>Tours</h3>
+        <ol>
+            <li><strong class="tour-names">2 in 1</strong>: Acropolis Museum + Academy of Athens</li>
+            <p><em>More detials</em><br>
+                Transport, food, hotel<br>
+                <strong class="price">Price: 220$</strong>
+            </p>
+            
+            <li><strong class="tour-names">3 in 1</strong>: Temple of Olympian Seuz + Spinalonga island + Sanctuary of Delphi</li>
+            <p><em>More detials</em><br>
+                Transport, food, hotel<br>
+                <strong class="price">Price: 320$</strong>
+            </p>
+            
+            <li><strong class="tour-names">4 in 1</strong>: Acropolis Museum +Temple of Olympian Seuz + Spinalonga island + Sanctuary of Delphi</li>
+            <p><em>More detials</em><br>
+                Transport, food, hotel<br>
+                <strong class="price">Price: 500$</strong>
+            </p>
+        </ol>
+        
+        
+        
+        <h3>Our contacts</h3>
+        <p><strong>Instagram account:</strong> greece.tours<br>
+        <strong>Telephone number:</strong> +77777777<br>
+        <strong>Email:</strong> greece.tours@gmail.com
+            
+        </p>
+    </body>
+</html>
