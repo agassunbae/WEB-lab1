@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Blog</title>
+        <style>
+        body {
+            font-family: system-ui;
+            background-color: rgb(242, 242, 242);
+        }
+            h1 {
+                background-color: rgb(242, 0, 97);
+                color: rgb(255, 255, 255);
+                text-align:center;
+                font-size: 1.5em;
+            }
+            .titles {
+                color: rgb(242, 0, 97);
+                text-align:center;
+                line-height:26px;
+                text-decoration: underline;
+                font-size: 24px;
+            }
+            h6 {
+                color: rgb(82, 82, 82);
+                font-style: italic;
+                line-height:1px;
+            }
+            .content-titles {
+                color: rgb(242, 0, 97);
+            }
+            .projects {
+                font-weight:bold;
+                font-style:italic;
+                color: rgb(242, 0, 97);
+            }
+            .services {
+                color: rgb(242, 0, 97);
+            }
+            .answers {
+                color: rgb(242, 0, 97);
+            }
+        </style>
+    </head>
+    <body>
+        
+        <h1>Graphic Designer's blog</h1>
+
+        <h3 id="contents">Contents</h3>
+        <ul>
+            <li class="content-titles"><a href="#about-me">About me</a></li>
+            <li class="content-titles"><a href="#portfolio">Portfolio</a></li>
+            <li class="content-titles"><a href="#services">Services</a></li>
+            <li class="content-titles"><a href="#q-and-a">Q&A</a></li>
+            <li class="content-titles"><a href="#contacts">Our Contacts</a></li>
+        </ul>
+        
+        <h2 id= "about-me" class="titles">- About me -</h2>
+        <h6>Posted on 30.05.2020</h6>
+        
+        <p>Hello!<br>
+        My name is May. I'm Graphic Designer with 4 years of experience.<br>
+            My work experience:
+            <ul>
+                <li><em>at company X as Graphic Designer until 1.01.2015</em></li>
+                <li><em>at company Y as Art Director from 3.04.2016</em></li>
+            </ul>
+        </p>
+        
+        <h2 id="portfolio" class="titles">- Portfolio -</h2>
+        <h6>Posted on 12.09.2020</h6>
+        
+        <p>There are some works that I've created.<br>
+            <ul>
+                <li class="projects">The Great Wave</li>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/0a/The_Great_Wave_off_Kanagawa.jpg" width="237">
+                <li class="projects">Kenjutsu</li>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/H%C5%8Dry%C5%AB_Tower.jpg/1200px-H%C5%8Dry%C5%AB_Tower.jpg" alt="Kenjutsu" width="237">
+            </ul>
+        </p>
+        
+        
+        <h2 id="services" class="titles">- Services -</h2>
+        <h6>Posted on 25.11.2020</h6>
+        
+        <p><strong>My services</strong><br>
+            <ul>
+                <li class="services">Art illustration</li>
+                <em><strong>Price:</strong> 10-25$</em>
+                <li class="services">Poster Design</li>
+                <em><strong>Price:</strong> 8-12$</em>
+                <li class="services">Poster Design</li>
+                <em><strong>Price:</strong> 8-12$</em>
+            </ul>
+        </p>
+        
+        
+        <h2 id="q-and-a" class="titles">- Q&A -</h2>
+        <h6>Posted on 3.02.2021</h6>
+        
+        <p>Relevant questions<br>
+            <ul>
+                <li>How long does one project take?</li>
+                <em class="answers"><strong>Answer:</strong> Depends on complexity of project. Standard is 3-7 days</em> 
+            </ul>
+        </p>
+        
+        
+        
+        <h2 id="contacts" class="titles">- Our Contacts -</h2>
+        <h6>Posted on 3.02.2021</h6>
+        
+        <p><strong>Instagram page:</strong> <a href="https://www.instagram.com/agassunbae/">@agassunbae</a><br>
+        <strong>Email address:</strong> amangelldievaa@gmail.com<br>
+        <strong>Contact number:</strong> +7777 777 7777
+        </p>
+        
+    </body>
+</html>
